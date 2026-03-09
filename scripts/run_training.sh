@@ -1,0 +1,1 @@
+python train_model.py satisfiability datasets/ --train_splits sat unsat --problem_types k-clique k-domset k-vercov --valid_dir datasets/ --valid_splits sat unsat --valid_problem_types k-clique k-domset k-vercov --label satisfiability --graph lcg --model neurosat --n_iterations 32 --lr 1e-04 --weight_decay 1e-08 --scheduler ReduceLROnPlateau --batch_size 16 --seed 123
